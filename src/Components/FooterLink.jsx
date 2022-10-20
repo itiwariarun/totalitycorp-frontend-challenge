@@ -76,7 +76,7 @@ const FooterLink = () => {
         {/* <!-- mobile view --> */}
         <div className="div2">
           <ul>
-            <li className="focus">
+            <li>
               <input type="checkbox" checked={checked} onChange={click} />
               <i></i>
               <h2>About Us</h2>
@@ -86,7 +86,7 @@ const FooterLink = () => {
                 ))}
               </p>
             </li>
-            <li className="focus">
+            <li>
               <input type="checkbox" checked={checked4} onChange={click4} />
               <i></i>
               <h2>Careers</h2>
@@ -96,7 +96,7 @@ const FooterLink = () => {
                 ))}
               </p>
             </li>
-            <li className="focus">
+            <li>
               <input type="checkbox" checked={checked3} onChange={click3} />
               <i></i>
               <h2>Social Impact</h2>
@@ -106,7 +106,7 @@ const FooterLink = () => {
                 ))}
               </p>
             </li>
-            <li className="focus">
+            <li>
               <input type="checkbox" checked={checked2} onChange={click2} />
               <i></i>
               <h2>For Business Partner</h2>
@@ -116,7 +116,7 @@ const FooterLink = () => {
                 ))}
               </p>
             </li>
-            <li className="focus">
+            <li>
               <input type="checkbox" checked={checked1} onChange={click1} />
               <i></i>
               <h2>Order and Pickup</h2>
