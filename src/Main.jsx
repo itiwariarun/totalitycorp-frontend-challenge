@@ -55,7 +55,7 @@ const Main = () => {
           <div className="copyright">
             <p>
               {terms.map((term) => (
-                <a href={term.to} className={term.class}>
+                <a href={term.to} key={term.id} className={term.class}>
                   <span> {term.term}</span>
                 </a>
               ))}
