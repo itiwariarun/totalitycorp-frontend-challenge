@@ -1,0 +1,15 @@
+@import './style.css';
+@import './responsive.css';
+
+.style1{
+  padding-block: 40px
+}
+.style2{
+   text-align:left
+}
+.style3{
+  padding:30px 40px
+}
+.style4{
+  padding-top:70px
+}
