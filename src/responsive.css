@@ -1,12 +1,22 @@
 /* hamburger icon */
+
 @media (max-width: 768px) {
   .hamburger {
     display: block;
 
   }
+  .background-side{
+   position: fixed;
+  top: 88px;
+  right: 0;
+  border: none;
+  background-color: rgba(9, 8, 8, 0.482);
+  width: 120%;
+  height: 100%;
+  z-index: 4;
+}
 .hidden{
-    transform: translateX(20%);
-z-index: 5;
+    transform: translateX(16%);
 
 }
   .grid-col-2 {
@@ -187,7 +197,6 @@ z-index: 5;
     cursor: none;
     width: 100%;
     height: 20px;
-    z-index: 1;
     opacity: 0;
   }
 

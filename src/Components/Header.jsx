@@ -45,19 +45,21 @@ const Header = () => {
 
       {/* <!-- Mobile Menu --> */}
       {showSidebar ? (
-        <aside className="mobile-menu hidden " id="menu">
-          <ul>
-            <Links />
-          </ul>
-          <div className="border"></div>
-          <div className="mobile-menu-bottom">
-            <button className="btn btn-dark-outline">Sign in</button>
-            <button className="btn btn-dark">Join now</button>
-            <div>
-              <Find />
+        <div className="background-side">
+          <aside className="mobile-menu hidden " id="menu">
+            <ul>
+              <Links />
+            </ul>
+            <div className="border"></div>
+            <div className="mobile-menu-bottom">
+              <button className="btn btn-dark-outline">Sign in</button>
+              <button className="btn btn-dark">Join now</button>
+              <div>
+                <Find />
+              </div>
             </div>
-          </div>
-        </aside>
+          </aside>
+        </div>
       ) : (
         ""
       )}
